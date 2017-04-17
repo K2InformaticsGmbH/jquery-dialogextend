@@ -1,7 +1,6 @@
-(function() {
-  var $;
+import $ from 'jquery';
 
-  $ = jQuery;
+(function() {
 
   $.widget("ui.dialogExtend", {
     version: "2.0.0",
@@ -255,9 +254,6 @@
 }).call(this);
 
 (function() {
-  var $;
-
-  $ = jQuery;
 
   $.extend(true, $.ui.dialogExtend.prototype, {
     modes: {
@@ -326,10 +322,6 @@
 }).call(this);
 
 (function() {
-  var $;
-
-  $ = jQuery;
-
   $.extend(true, $.ui.dialogExtend.prototype, {
     modes: {
       "maximize": {
@@ -412,10 +404,6 @@
 }).call(this);
 
 (function() {
-  var $;
-
-  $ = jQuery;
-
   $.extend(true, $.ui.dialogExtend.prototype, {
     modes: {
       "minimize": {
